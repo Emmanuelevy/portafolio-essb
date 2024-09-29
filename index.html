@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PORTAFOLIO DE EMMANUEL BUSTAMANTE</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/EBLOGO.png" type="image/png">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ing. Emmanuel</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>EMMANUEL BUSTAMANTE</h1>
+            <h2>Web developer</h2>
+            <div class="redes">
+                <a target="_blank" href="https://github.com/Emmanuelevy"><i class="fa-brands fa-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/emmanuelssbustamante/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a target="_blank" href="https://discord.com/channels/@me"><i class="fa-brands fa-discord"></i></a>
+                <a target="_blank" href=""><i class="fa-solid fa-medal"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+                <p>
+                     <span>Hola, soy Emmanuel Bustamante.</span> desarrollador web con experiencia en la creación de aplicaciones web. Tengo un diplomado en redes avanzadas de computadoras y me considero autodidacta, pragmático, fiable y responsable. Actualmente, estoy participando en el proyecto <span1>Oracle Next Education</span1>, donde sigo ampliando mis conocimientos.
+                     
+                     <!--un desarrollador web con experiencia en la creación de aplicaciones web innovadoras y eficientes. A lo largo de mi carrera, he desarrollado un enfoque pragmático y autodidacta que me ha permitido adquirir habilidades valiosas, no solo en desarrollo, sino también en la gestión avanzada de redes de computadoras, respaldado por un diplomado en esta área. Mi compromiso con la fiabilidad y la responsabilidad se refleja en cada proyecto en el que participo, siempre buscando entregar soluciones de alta calidad. Actualmente, estoy participando en el proyecto <span>Oracle Next Education</span>, lo que me está permitiendo ampliar aún más mis conocimientos y habilidades en el desarrollo web y en la gestión de proyectos tecnológicos.Estoy emocionado por la posibilidad de aplicar mis habilidades y conocimientos en nuevos retos y continuar creciendo profesionalmente en el campo del desarrollo web. -->
+                </p>
+            <div class="fila">
+
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Título</strong>
+                            Ingeniero en Computación
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            emmanuel@emmanuelbustamante.com
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +52 724 115 31 69
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Tlaxcala, México
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>APPLE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa fa-laptop" aria-hidden></i>
+                            <span>ALIENWARE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-swimming"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book-open-reader"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car-side"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>CINE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <span class="overlay"></span>
+                <a href="Emmanuel Bustamante CV.pdf" download class="download-btn">Descargar CV <i class="fa-solid fa-download"></i></a>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Phyton</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Oracle Cloud</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Lógica</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Capacidad para resolver problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestión de proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniería en Computación</h4>
+                        <span class="casa">Universidad Autónoma de Tlaxcala</span>
+                        <span class="fecha">2012 - 2017</span>
+                        <p>Facultad de Ciencias Básicas Ingeniería y Tecnología. Se encuentra ubicada en el estado de Tlaxcala, Ciudad de Apizaco. Mi experiencia universitaria me preparó para mi carrera actual como programador especialmente en áreas como HTML, CSS, JAVASCRIPT, REACT, MySQL y PHYTON. Tuve la oportunidad de tomar un diplomado en redes avanzadas de computadoras. Participé en varios seminarios como súper-computo utilizando jarro negro (LINUX), introducción a las redes de datos-comparación entre modelos de implementación convencionales y redes definidas por software en el programa de movilidad académicos y gestores México-Argentina (MAGMA), entre otros.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Diplomado en redes avanzadas de computadoras</h4>
+                        <span class="casa">Universidad Autónoma de Tlaxcala</span>
+                        <span class="fecha">2013 - 2013</span>
+                        <p>Profesionistas expertos en integración de las tecnologías computacionales y telecomunicaciones. También adquieren las habilidades necesarias en el diseño, mantenimiento y aplicación de sistemas de redes y protocolos de comunicación.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+
+                    <div class="item der">
+                        <h4>ENCRIPTADOR DE TEXTO</h4>
+                        <span class="casa">ALURA & ORACLE</span>
+                        <span class="fecha">JUNIO 2024 - AGOSTO 2024</span>
+                        <p>"El proyecto es una aplicación que encripta texto, algunos de lo requisitos son: utilizar llaves específicas entregadas por el usuario para ciertas letras del alfabeto, sólo pueden usar letras minúsculas, no se puede utilizar acentos ni caracteres especiales, poder encriptar una palabra u oración y poder desencriptarla. Las herramientas usadas son: HTML, CSS y JAVASCRIPT.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>ALURAPLAY</h4>
+                        <span class="casa">ALURA & ORACLE</span>
+                        <span class="fecha">SEPTIEMBRE 2024</span>
+                        <p>El proyecto es una aplicacion que tiene videos flex-grow sobre algunos cursos de ALURA, junto con un menu lateral mobile-first variado y flexible, un menu de búsqueda, incluidos algunos botones aplicados en notificaciones y más, usando flexbox y layouts responsivos. Las herramientas utilizadas son: HTML, CSS y JAVASCRIPT.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>JUEGO-PONG</h4>
+                        <span class="casa">ALURA & ORACLE</span>
+                        <span class="fecha">SEPTIEMBRE 2024</span>
+                        <p>El proyecto se realizó utilizando la herramienta p5.js y ChatGPT. Así se comprende como utilizar la herramienta IA como apoyo en los estudios. Se crearon mensajes asertivos para generar respuestas adaptadas a las necesidades. Se aplicó texto a voz para narrar la puntuación del partido y sonidos durante las acciones del juego junto con la finalización de la partida. Se colocó un marcador que lleva la cuenta del juego y un reinicio con uso de la tecla "R". Y un diseño galáctico. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="Encriptador de texto">
+                    <div class="overlay">
+                        <a class="sindecorar" target="_blank" href="https://encriptador-de-texto-rose.vercel.app">Encriptador de texto <br> ALURA & ORACLE</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p2.png" alt="AluraPlay">
+                    <div class="overlay">
+                        <a class="sindecorar" target="_blank" href="https://aluraplay-pied-nine.vercel.app/">AluraPlay <br> ALURA & ORACLE</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p3.png" alt="Juego-PONG">
+                    <div class="overlay">
+                        <a class="sindecorar" target="_blank" href="https://editor.p5js.org/Emmanuelevy/full/vQEfvBSsK">Juego-PONG <br> ALURA & ORACLE</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                 <form onsubmit="return sendMail(this)" class="col" method="get">
+                    <label for="Nombre"></label>
+                    <input id="Nombre" type="text" name="Nombre" placeholder="Nombre">
+                    <label for="Telefono"></label>
+                    <input id="Telefono" type="text" name="Telefono" placeholder="Teléfono">
+                    <label for="email"></label>
+                    <input id="email" type="email" name="email" placeholder="E-mail">
+                    <label for="subject"></label>
+                    <input id="subject" type="text" name="subject" placeholder="Tema">
+                    <textarea id="message" name="message" cols="30" rows="10" placeholder="Deja tu mensaje por favor."></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
+
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                México 90494, Tzompantepec, Tlaxcala.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: +52 724 115 31 69 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                E-mail: emmanuel@emmanuelbustamante.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a target="_blank" href="https://github.com/Emmanuelevy"><i class="fa-brands fa-github"></i></a> 
+            <a target="_blank" href="https://www.linkedin.com/in/emmanuelssbustamante/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a target="_blank" href="https://discord.com/channels/@me"><i class="fa-brands fa-discord"></i></a>
+            <a target="_blank" href=""><i class="fa-solid fa-medal"></i></a>
+        </div>
+        <address>
+           <small><b> &copy;2024 </b>Ing. Emmanuel Salomón Santiago Bustamante</small>
+        </address>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
