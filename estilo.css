@@ -258,143 +258,30 @@ html{
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
-.skills .skill > span{
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
-}
-.skills .skill .barra-skill{
-    height: 8px;
-    width: 80%;
-    background-color:var(--color-quinto);
-    position: relative;
+.skills .grupo-tags{
     margin-bottom: 30px;
 }
-.skills .skill .progreso{
-    background-color:var(--color-secundario);
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 8px;
+.skills .grupo-tags h4{
+    font-size: 20px;
+    font-family: 'Righteous';
+    color: var(--color-secundario);
+    margin-bottom: 15px;
 }
-.skills .skill .barra-skill span{
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background-color:var(--color-secundario);
+.skills .etiqueta{
+    display: inline-block;
+    background-color: var(--color-quinto);
+    color: var(--color-terciario);
+    border: 1px solid var(--color-secundario);
     border-radius: 50px;
-    line-height: 40px;
-    text-align: center;
-    top: -17px;
-    right: -15px;
-    font-size: 14px;
+    padding: 10px 20px;
+    margin: 0 10px 10px 0;
+    font-size: 16px;
+    font-weight: bold;
 }
 /*Sección: portafolio. De las etiqueta <a> para quitar subrayados: sin decorar*/
 .sindecorar{
     text-decoration: none;
 }
-/* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .HTML{
-    width: 0%;
-    animation: 2s HTML forwards;
-}
-@keyframes HTML {
-    0%{width: 0%;}
-    100%{width: 95%;}
-}
-
-.skills .skill .CSS{
-    width: 0%;
-    animation: 2s CSS forwards;
-}
-@keyframes CSS {
-    0%{width: 0%;}
-    100%{width: 95%;}
-}
-
-.skills .skill .JavaScript{
-    width: 0%;
-    animation: 2s JavaScript forwards;
-}
-@keyframes JavaScript {
-    0%{width: 0%;}
-    100%{width: 90%;}
-}
-
-.skills .skill .phyton{
-    width: 0%;
-    animation: 2s phyton forwards;
-}
-@keyframes phyton{
-    0%{width: 0%;}
-    100%{width: 90%;}
-}
-
-.skills .skill .MySQL{
-    width: 0%;
-    animation: 2s MySQL forwards;
-}
-@keyframes MySQL {
-    0%{width: 0%;}
-    100%{width: 90%;}
-}
-
-.skills .skill .oraclecloud{
-    width: 0%;
-    animation: 2s oraclecloud forwards;
-}
-@keyframes oraclecloud {
-    0%{width: 0%;}
-    100%{width: 90%;}
-}
-
-
-
-.skills .skill .Creatividad{
-    width: 0%;
-    animation: 2s Creatividad forwards;
-}
-@keyframes Creatividad {
-    0%{width: 0%;}
-    100%{width: 99%;}
-}
-
-.skills .skill .logica{
-    width: 0%;
-    animation: 2s logica forwards;
-}
-@keyframes logica {
-    0%{width: 0%;}
-    100%{width: 98%;}
-}
-
-.skills .skill .capacidadrp{
-    width: 0%;
-    animation: 2s capacidadrp forwards;
-}
-@keyframes capacidadrp {
-    0%{width: 0%;}
-    100%{width: 99%;}
-}
-
-.skills .skill .dedicacion{
-    width: 0%;
-    animation: 2s dedicacion forwards;
-}
-@keyframes dedicacion {
-    0%{width: 0%;}
-    100%{width: 100%;}
-}
-
-.skills .skill .gestionproyectos{
-    width: 0%;
-    animation: 2s gestionproyectos forwards;
-}
-@keyframes gestionproyectos {
-    0%{width: 0%;}
-    100%{width: 95%;}
-}
-
 /* SECCION CURRICULUM */
 .curriculum{
     background-color:var(--color-primario);
@@ -720,9 +607,6 @@ footer .arriba{
         display: block;
     }
     .skills .fila .col{
-        width: 100%;
-    }
-    .skills .fila .col .barra-skill{
         width: 100%;
     }
 
